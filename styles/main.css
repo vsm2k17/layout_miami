@@ -118,7 +118,7 @@ textarea {
   position: absolute;
   width: 115px;
   height: 76px;
-  background-image: url("../images/logo.png");
+  background-image: url("/images/logo.png");
   left: 50%;
   top: 24px;
   -webkit-transform: translate(-50%);
