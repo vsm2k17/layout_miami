@@ -38,6 +38,7 @@ textarea {
       background: rgba(255, 255, 255, 0.1);
       border-radius: 8px; }
   .nav__link {
+    white-space: nowrap;
     font-size: 12px;
     font-style: bold;
     letter-spacing: 2px;
@@ -50,7 +51,7 @@ textarea {
 
 .header {
   position: relative;
-  background-image: url("/images/header.jpg");
+  background-image: url("../images/header.jpg");
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -118,7 +119,7 @@ textarea {
   position: absolute;
   width: 115px;
   height: 76px;
-  background-image: url("/images/logo.png");
+  background-image: url("../images/logo.png");
   left: 50%;
   top: 24px;
   -webkit-transform: translate(-50%);
