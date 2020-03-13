@@ -92,7 +92,7 @@ a {
     .header__toggle:checked ~ .logo::after {
       content: url(../images/crest.png); }
     .header__toggle:checked ~ .logo::before {
-      display: none; }
+      visibility: hidden; }
   .header__nav {
     position: absolute;
     bottom: 48px;
@@ -250,7 +250,9 @@ a {
 
 @media screen and (max-width: 699px) {
   .gallery {
-    max-width: 282px; } }
+    max-width: 282px; }
+    .gallery__button.button {
+      width: 100%; } }
 
 .heading {
   letter-spacing: -1.5px;
@@ -363,7 +365,8 @@ a {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  margin-top: 32px; }
   .form__item {
     margin-bottom: 16px; }
   .form__input {
@@ -449,6 +452,7 @@ a {
   .contact__heads {
     color: #9fadc2; }
   .contact__form {
+    margin-top: 12px;
     width: 423px; }
 
 @media screen and (max-width: 699px) {
